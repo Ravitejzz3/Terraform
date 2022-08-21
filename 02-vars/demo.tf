@@ -60,3 +60,4 @@ variable "country" {}
 
 output "country-name" {
     value = "Name of the country where trainer resides is ${var.country}"
+}    
