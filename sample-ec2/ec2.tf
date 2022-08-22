@@ -1,4 +1,5 @@
-resource "aws_instance" "my-ec2" {
+
+resource "aws_instance" "b49-ec2" {
   ami           = "ami-00ff427d936335825"
   instance_type = "t2.micro"
 
@@ -8,6 +9,6 @@ resource "aws_instance" "my-ec2" {
 }
 
 
-output "private" {
-    value = aws_instance.my-ec2.private_ip
+output "privateip" {
+    value = aws_instance.b49-ec2.private_ip
 }
