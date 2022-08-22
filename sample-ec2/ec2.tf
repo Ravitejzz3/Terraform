@@ -9,5 +9,5 @@ resource "aws_instance" "my-ec2" {
 
 
 output "private" {
-    value = "aws_instace".b49-ec2.private_ip
+    value = aws_instace.my-ec2.private_ip
 }
