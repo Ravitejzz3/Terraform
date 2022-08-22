@@ -1,6 +1,6 @@
 
 resource "aws_instance" "b49-ec2" {
-  ami           = "ami-0aa718de62aea6fbe"
+  ami           = "ami-00ff427d936335825"
   instance_type = "t2.micro"
 
   tags = {
